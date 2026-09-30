@@ -1,0 +1,211 @@
+ul,
+ol {
+  list-style-type: none;
+}
+a {
+  text-decoration: none !important;
+}
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+ul,
+li,
+a,
+p,
+button,
+span {
+  font-family: "DM Sans", sans-serif !important;
+}
+button {
+  border: none;
+}
+
+.des {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.3px;
+  color: #eff7f5;
+}
+
+.commonBtn {
+  padding: 19px 41px;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  color: #004f44;
+  background-color: #eff7f5;
+}
+
+.twoCommon{
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: #004f44;
+}
+/* =======Nav Start======== */
+#navbar {
+  background-color: #004f44;
+}
+
+.navList ul {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.navList ul li a {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  color: white;
+}
+.navList ul li i {
+  font-size: 10px;
+  position: relative;
+  bottom: 5px;
+  visibility: hidden;
+  transition: 0.25s;
+}
+.navList ul li:hover i {
+  visibility: visible;
+}
+
+.navIconWrap {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+.navIconWrap i {
+  font-size: 20px;
+  color: white;
+  background-color: transparent;
+}
+/* =======Nav End======== */
+
+/* =======Banner Start======== */
+#banner {
+  padding: 92px 0;
+  background-color: #004f44;
+}
+.bannerWrap {
+  display: flex;
+  justify-content: space-between;
+}
+.bannerContent h1 {
+  color: #eff7f5;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 72px;
+  letter-spacing: 1.5px;
+  max-width: 420px;
+}
+
+.bannerContent p {
+  max-width: 390px;
+  padding: 32px 0;
+}
+
+.bannerBtn {
+  display: flex;
+  gap: 43px;
+  align-items: center;
+}
+.bannerBtn a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #eff7f5;
+  letter-spacing: 0.3px;
+}
+.bannerBtn i {
+  margin-left: 16px;
+}
+
+.bannerImgWrap {
+  display: flex;
+  gap: 5px;
+}
+.bannerImg {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  position: relative;
+}
+.bannerImg img {
+  height: 272px;
+}
+
+.bannerImg p {
+  position: absolute;
+  padding: 7px 15px;
+  font-size: 12px;
+  font-weight: 400;
+  color: white;
+  background-color: #004f44;
+  margin-top: 19px;
+  margin-left: 30px;
+}
+.bannerImgTwo p {
+  position: absolute;
+  padding: 7px 15px;
+  font-size: 12px;
+  font-weight: 400;
+  color: white;
+  background-color: #004f44;
+  margin-top: 19px;
+  margin-left: 30px;
+}
+/* .bannerDes {
+  position: absolute;
+  transform: translate(50%, 350%);
+  display: flex;
+  flex-direction: column;
+}
+.bannerDes h3 {
+  color: black;
+  font-size: 28px;
+  font-weight: 400;
+}
+.bannerDes p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.3px;
+  background-color: transparent;
+  color: black;
+} */
+
+/* =======Banner End======== */
+
+/* =======Featured Start======== */
+#feature{
+    padding: 70px 0 95px;
+}
+.featureHead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.featureHead p{
+    font-size: 24px;
+    color: #004f44;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+/* =======Featured End======== */
+
+/* ======= Start======== */
+/* ======= End======== */
+
+/* ======= Start======== */
+/* ======= End======== */
+
+/* ======= Start======== */
+/* ======= End======== */
+
+/* ======= Start======== */
+/* ======= End======== */
+
+/* ======= Start======== */
+/* ======= End======== */
+
+/* ======= Start======== */
+/* ======= End======== */
